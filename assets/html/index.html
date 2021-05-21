@@ -1,7 +1,17 @@
 {{define "index"}}
 {{template "header"}}
 <div class="text-center pt-3">
-    
+    <div class="form-group">
+        <span>IP : {{.IP}}</span>
+    </div>
+    <div class="form-group">
+        <span>{{.Isp}}</span>
+    </div>
+    <div class="form-group">
+        <span>{{.Lat}}</span>
+        <span>{{.Lon}}</span>
+    </div>
+
 </div>    
 <!--javascript-->
 <script src="/assets/bootstrap-5/js/bootstrap.min.js"></script>
